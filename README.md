@@ -5,6 +5,7 @@ opinionated scaffolder for presentations using [slidev](https://sli.dev/)
 <!--status-badges start -->
 
 [![Node CI Workflow Status][github-actions-ci-badge]][github-actions-ci-link]
+[![Codecov][coverage-badge]][coverage-link]
 
 <!--status-badges end -->
 
@@ -111,3 +112,8 @@ $ npm test
 [runkit-link]: https://npm.runkit.com/@form8ion/slidev
 
 [runkit-badge]: https://badge.runkitcdn.com/@form8ion/slidev.svg
+
+[coverage-link]: https://codecov.io/github/form8ion/slidev
+[coverage-badge]: https://img.shields.io/codecov/c/github/form8ion/slidev?logo=codecov
+
+[slsa-badge]: https://slsa.dev/images/gh-badge-level2.svg
