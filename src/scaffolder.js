@@ -1,6 +1,7 @@
 import {promises as fs} from 'fs';
 import deepmerge from 'deepmerge';
-import scaffoldTesting from './testing-scaffolder';
+
+import scaffoldTesting from './testing-scaffolder.js';
 
 export default async function ({projectRoot}) {
   const [testingResults] = await Promise.all([

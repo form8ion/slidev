@@ -1,9 +1,11 @@
 import {promises as fs} from 'fs';
+
 import {assert} from 'chai';
 import sinon from 'sinon';
 import any from '@travi/any';
-import * as testingScaffolder from './testing-scaffolder';
-import scaffold from './scaffolder';
+
+import * as testingScaffolder from './testing-scaffolder.js';
+import scaffold from './scaffolder.js';
 
 suite('scaffolder', () => {
   let sandbox;
