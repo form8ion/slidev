@@ -108,7 +108,7 @@ $ npm test
 
 [npm-link]: https://www.npmjs.com/package/@form8ion/slidev
 
-[npm-badge]: https://img.shields.io/npm/v/@form8ion/slidev.svg
+[npm-badge]: https://img.shields.io/npm/v/@form8ion/slidev?logo=npm
 
 [runkit-link]: https://npm.runkit.com/@form8ion/slidev
 
