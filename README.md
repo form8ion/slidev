@@ -6,6 +6,7 @@ opinionated scaffolder for presentations using [slidev](https://sli.dev/)
 
 [![Node CI Workflow Status][github-actions-ci-badge]][github-actions-ci-link]
 [![Codecov][coverage-badge]][coverage-link]
+![SLSA Level 2][slsa-badge]
 
 <!--status-badges end -->
 
