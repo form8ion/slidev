@@ -1,11 +1,10 @@
 // #### Import
-// remark-usage-ignore-next 2
-import {resolve} from 'path';
+// remark-usage-ignore-next
 import stubbedFs from 'mock-fs';
-import {scaffold} from './lib/index.cjs.js';
+import {scaffold} from './lib/index.js';
 
 // remark-usage-ignore-next
-stubbedFs({node_modules: stubbedFs.load(resolve(__dirname, 'node_modules'))});
+stubbedFs({node_modules: stubbedFs.load('node_modules')});
 
 // #### Execute
 
