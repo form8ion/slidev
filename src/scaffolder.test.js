@@ -52,7 +52,7 @@ info: |
   Learn more at [Sli.dev](https://sli.dev)
 ---`
       );
-    expect(dependencies).toEqual(['@slidev/cli', '@slidev/theme-default']);
+    expect(dependencies.javascript.production).toEqual(['@slidev/cli', '@slidev/theme-default']);
     expect(devDependencies).toEqual(testingDevDependencies);
     expect(scripts).toEqual({dev: 'slidev', build: 'slidev build', export: 'slidev export', ...testingScripts});
   });

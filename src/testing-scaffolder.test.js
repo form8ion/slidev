@@ -35,7 +35,7 @@ describe('testing scaffolder', () => {
             + ' \'npm-run-all --print-label --parallel test:served:*\'',
           'test:served:smoke': 'run-s cypress:run'
         },
-        devDependencies: ['start-server-and-test']
+        dependencies: {javascript: {development: ['start-server-and-test']}}
       }
     ]));
   });

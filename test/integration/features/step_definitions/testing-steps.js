@@ -3,13 +3,13 @@ import {Then} from '@cucumber/cucumber';
 import {assert} from 'chai';
 
 Then('smoke tests are wired up', async function () {
-  const {devDependencies, scripts} = this.results;
+  const {dependencies: {javascript: {development}}, scripts} = this.results;
 
   [
     'cypress',
     'start-server-and-test',
     'is-website-vulnerable'
-  ].forEach(dependency => assert.include(devDependencies, dependency));
+  ].forEach(dependency => assert.include(development, dependency));
   assert.include(
     scripts,
     {

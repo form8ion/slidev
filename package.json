@@ -54,8 +54,8 @@
     "provenance": true
   },
   "dependencies": {
-    "@form8ion/cypress-scaffolder": "^3.0.2",
-    "@form8ion/is-website-vulnerable": "^1.0.0",
+    "@form8ion/cypress-scaffolder": "^4.0.0-alpha.1",
+    "@form8ion/is-website-vulnerable": "^2.0.0-alpha.1",
     "deepmerge": "^4.2.2"
   },
   "devDependencies": {

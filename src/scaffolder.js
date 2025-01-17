@@ -33,7 +33,7 @@ info: |
 
   return deepmerge(
     {
-      dependencies: ['@slidev/cli', '@slidev/theme-default'],
+      dependencies: {javascript: {production: ['@slidev/cli', '@slidev/theme-default']}},
       scripts: {
         dev: 'slidev',
         build: 'slidev build',
